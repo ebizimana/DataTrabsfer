@@ -12,10 +12,11 @@ class FirstViewController: UIViewController, getData {
 
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var firstTextField: UITextField!
-
+    
+    var word = "Hello World!"
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        firstLabel.text = word
     }
 
     override func didReceiveMemoryWarning() {
